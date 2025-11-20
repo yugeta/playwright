@@ -1,7 +1,7 @@
 node_modules
 package-lock.json
 package.json
-/tests/playwright/test-results/
+test-results
 
 .DS_Store
 Thumbs.db
