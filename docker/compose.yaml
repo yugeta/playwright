@@ -1,0 +1,7 @@
+services:
+  playwright:
+    container_name: mynt_playwright
+    build: ./playwright
+    working_dir: /tests
+    volumes:
+      - ../tests/playwright:/tests
